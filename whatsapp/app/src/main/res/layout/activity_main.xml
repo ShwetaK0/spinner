@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Sign-Up"
+       android:textSize="50dp"
+       android:textColor="@color/black"
+       android:textStyle="bold"
+       android:layout_marginTop="35dp"
+       android:textAlignment="center"
+       android:layout_marginBottom="45dp"
+
+       />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Name :"
+       android:textStyle="italic"
+       android:layout_marginHorizontal="20dp"
+       android:textColorHint="@color/black"
+       android:textAlignment="gravity"
+
+      />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Email :"
+       android:textStyle="italic"
+       android:layout_marginHorizontal="20dp"
+       android:textColorHint="@color/black"
+       android:textAlignment="gravity"
+
+       />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="User Id :"
+       android:textStyle="italic"
+       android:layout_marginHorizontal="20dp"
+       android:textColorHint="@color/black"
+       android:textAlignment="gravity"
+
+       />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Password :"
+       android:textStyle="italic"
+       android:layout_marginHorizontal="20dp"
+       android:textColorHint="@color/black"
+       android:textAlignment="gravity"
+
+       />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Contact :"
+       android:textStyle="italic"
+       android:layout_marginHorizontal="20dp"
+       android:textColorHint="@color/black"
+       android:textAlignment="gravity"
+
+       />
+
+   <Button
+       android:layout_width="150dp"
+       android:layout_height="50dp"
+      android:text="sign-up"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:layout_marginTop="30dp"
+       android:layout_marginRight="20dp"
+      android:textAlignment="gravity"
+      android:scrollbarSize="10dp"
+       android:textColor="@color/black"
+      android:layout_marginHorizontal="20dp"
+      />
+
+   <Button
+       android:layout_width="150dp"
+       android:layout_height="50dp"
+       android:text="Restart"
+       android:textSize="20dp"
+       android:textStyle="bold"
+       android:layout_marginTop="-50dp"
+       android:textAlignment="gravity"
+       android:scrollbarSize="10dp"
+       android:layout_marginLeft="200dp"
+       android:textColor="@color/black"
+       />
+</LinearLayout>

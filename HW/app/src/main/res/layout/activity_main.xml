@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+
+
+      >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Full name"
+          android:textSize="15dp"
+          android:textStyle="normal"
+          android:textColor="@color/gray"
+          android:layout_marginTop="25dp"
+          android:layout_marginLeft="35dp"
+          />
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="30dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:fontFamily="monospace"
+          android:textSize="20dp"
+          />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+
+       >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="card number"
+          android:textSize="15dp"
+          android:layout_marginTop="20dp"
+          android:textStyle="normal"
+          android:textColor="@color/gray"
+          android:layout_marginLeft="35dp"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Security code"
+          android:textSize="15dp"
+          android:layout_marginLeft="250dp"
+          android:layout_marginTop="-19dp"
+          android:textStyle="normal"
+          android:textColor="@color/gray"
+
+          />
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="190dp"
+          android:layout_marginLeft="28dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:fontFamily="monospace"
+          android:textSize="20dp"
+          />
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="247dp"
+          android:layout_marginRight="40dp"
+          android:layout_marginTop="-49dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:fontFamily="monospace"
+          android:textSize="20dp"
+          />
+      <Spinner
+          android:id="@+id/spinner_security"
+          android:layout_width="130dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="270dp"
+          android:layout_marginTop="-30dp"
+
+         />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+
+       >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Expiration date"
+          android:textSize="15dp"
+          android:layout_marginTop="20dp"
+          android:textStyle="normal"
+          android:textColor="@color/gray"
+          android:layout_marginLeft="35dp"
+          />
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="30dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:fontFamily="monospace"
+          android:textSize="20dp"
+          />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+
+       >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="address"
+          android:textSize="15dp"
+          android:layout_marginTop="20dp"
+          android:textStyle="normal"
+          android:textColor="@color/gray"
+          android:layout_marginLeft="35dp"
+          />
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="30dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:fontFamily="monospace"
+          android:textSize="20dp"
+          />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+
+       >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="City"
+          android:textSize="15dp"
+          android:textStyle="normal"
+          android:layout_marginTop="20dp"
+          android:textColor="@color/gray"
+          android:layout_marginLeft="35dp"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="State"
+          android:textSize="15dp"
+          android:layout_marginLeft="250dp"
+          android:layout_marginTop="-19dp"
+          android:textStyle="normal"
+          android:textColor="@color/gray"
+
+          />
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="190dp"
+          android:layout_marginLeft="28dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:fontFamily="monospace"
+          android:textSize="20dp"
+          />
+      <Spinner
+          android:id="@+id/spinner_city"
+          android:layout_width="130dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="50dp"
+          android:layout_marginTop="-30dp"
+
+          />
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="247dp"
+          android:layout_marginRight="40dp"
+          android:layout_marginTop="-49dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:fontFamily="monospace"
+          android:textSize="20dp"
+          />
+      <Spinner
+          android:id="@+id/spinner_state"
+          android:layout_width="130dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="270dp"
+          android:layout_marginTop="-30dp"
+
+          />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+
+       >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Postal code"
+          android:textSize="15dp"
+          android:textStyle="normal"
+          android:layout_marginTop="20dp"
+          android:textColor="@color/gray"
+          android:layout_marginLeft="35dp"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Country"
+          android:textSize="15dp"
+          android:layout_marginLeft="250dp"
+          android:layout_marginTop="-19dp"
+          android:textStyle="normal"
+          android:textColor="@color/gray"
+
+          />
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="190dp"
+          android:layout_marginLeft="28dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:fontFamily="monospace"
+          android:textSize="20dp"
+          />
+      <Spinner
+          android:id="@+id/spinner_postal"
+          android:layout_width="130dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="50dp"
+          android:layout_marginTop="-30dp"
+
+          />
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="247dp"
+          android:layout_marginRight="40dp"
+          android:layout_marginTop="-49dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:fontFamily="monospace"
+          android:textSize="20dp"
+          />
+      <Spinner
+          android:id="@+id/spinner_country"
+          android:layout_width="130dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="270dp"
+          android:layout_marginTop="-30dp"
+
+          />
+
+   </LinearLayout>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="25dp"
+       android:layout_marginTop="100dp"
+       android:text="PROCESS"
+       android:textSize="20dp"
+       android:backgroundTint="@color/blue"
+      />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

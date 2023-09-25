@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="55dp"
+       android:layout_height="55dp"
+       android:orientation="vertical"
+       android:layout_marginTop="15dp"
+       >
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:layout_width="55dp"
+          android:layout_height="55dp"
+          android:src="@drawable/hghghgh"
+          android:layout_marginLeft="15dp"
+         />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="90dp"
+       android:layout_marginTop="-55dp"
+       android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Betty L"
+          android:textSize="20dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in"
+          android:textSize="15dp"
+          android:textColor="@color/grey"
+          android:textStyle="bold"
+          android:layout_marginTop="8dp"
+          />
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:layout_marginTop="12dp"
+          android:background="@color/grey"
+         />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="55dp"
+       android:layout_height="55dp"
+       android:orientation="vertical"
+       android:layout_marginTop="15dp"
+       >
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:layout_width="55dp"
+          android:layout_height="55dp"
+          android:src="@drawable/girl"
+          android:layout_marginLeft="15dp"
+          />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="90dp"
+       android:layout_marginTop="-55dp"
+       android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Elizabeth"
+          android:textSize="20dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in"
+          android:textSize="15dp"
+          android:textColor="@color/grey"
+          android:textStyle="bold"
+          android:layout_marginTop="8dp"
+          />
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:layout_marginTop="12dp"
+          android:background="@color/grey"
+          />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="55dp"
+       android:layout_height="55dp"
+       android:orientation="vertical"
+       android:layout_marginTop="15dp"
+       >
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:layout_width="55dp"
+          android:layout_height="55dp"
+          android:src="@drawable/ghg"
+          android:layout_marginLeft="15dp"
+          />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="90dp"
+       android:layout_marginTop="-55dp"
+       android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Garcia Lewis"
+          android:textSize="20dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in"
+          android:textSize="15dp"
+          android:textColor="@color/grey"
+          android:textStyle="bold"
+          android:layout_marginTop="8dp"
+          />
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:layout_marginTop="12dp"
+          android:background="@color/grey"
+          />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="55dp"
+       android:layout_height="55dp"
+       android:orientation="vertical"
+       android:layout_marginTop="15dp"
+       >
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:layout_width="55dp"
+          android:layout_height="55dp"
+          android:src="@drawable/rttt"
+          android:layout_marginLeft="15dp"
+          />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="90dp"
+       android:layout_marginTop="-55dp"
+       android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Mary Jackson"
+          android:textSize="20dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in"
+          android:textSize="15dp"
+          android:textColor="@color/grey"
+          android:textStyle="bold"
+          android:layout_marginTop="8dp"
+          />
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:layout_marginTop="12dp"
+          android:background="@color/grey"
+          />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="55dp"
+       android:layout_height="55dp"
+       android:orientation="vertical"
+       android:layout_marginTop="15dp"
+       >
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:layout_width="55dp"
+          android:layout_height="55dp"
+          android:src="@drawable/tyu"
+          android:layout_marginLeft="15dp"
+          />
+</LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="90dp"
+       android:layout_marginTop="-55dp"
+       android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Betty C"
+          android:textSize="20dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in"
+          android:textSize="15dp"
+          android:textColor="@color/grey"
+          android:textStyle="bold"
+          android:layout_marginTop="8dp"
+          />
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:layout_marginTop="12dp"
+          android:background="@color/grey"
+          />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="55dp"
+       android:layout_height="62dp"
+       android:layout_marginTop="15dp"
+       android:orientation="vertical">
+
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:layout_width="55dp"
+          android:layout_height="55dp"
+          android:layout_marginLeft="15dp"
+          android:src="@drawable/model" />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="90dp"
+       android:layout_marginTop="-55dp"
+       android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Anderson Thomas"
+          android:textSize="20dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in"
+          android:textSize="15dp"
+          android:textColor="@color/grey"
+          android:textStyle="bold"
+          android:layout_marginTop="8dp"
+          />
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:layout_marginTop="12dp"
+          android:background="@color/grey"
+          />
+   </LinearLayout>
+
+
+
+   </LinearLayout>
+
+
+
+

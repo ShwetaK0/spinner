@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="AIMIT COLLEGE"
+       android:textSize="35dp"
+       android:textStyle="bold"
+       android:layout_margin="50dp"
+       android:gravity="center"
+       android:textColor="@color/orange"
+
+
+       />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Name:"
+
+       android:textStyle="italic"
+       android:textSize="20dp"
+       android:layout_marginHorizontal="20dp"
+       android:textColorHint="@color/black"
+      />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Father's name:"
+       android:textStyle="italic"
+       android:textSize="20dp"
+       android:textAlignment="gravity"
+       android:layout_marginHorizontal="20dp"
+       android:textColor="@color/black"
+       android:textColorHint="@color/black"
+
+       />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Class:"
+       android:textStyle="italic"
+       android:textSize="20dp"
+       android:textAlignment="gravity"
+       android:layout_marginHorizontal="20dp"
+       android:textColor="@color/black"
+       android:textColorHint="@color/black"
+
+       />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Roll:"
+       android:textStyle="italic"
+       android:textSize="20dp"
+       android:textAlignment="gravity"
+       android:layout_marginHorizontal="20dp"
+       android:textColor="@color/black"
+       android:textColorHint="@color/black"
+
+       />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Address:"
+       android:textStyle="italic"
+       android:textSize="20dp"
+       android:textAlignment="gravity"
+       android:layout_marginHorizontal="20dp"
+       android:textColorHint="@color/black"
+
+       />
+   <Button
+       android:layout_width="150dp"
+       android:layout_height="50dp"
+      android:text="Login"
+      android:textSize="15dp"
+      android:textStyle="bold"
+       android:scrollbarSize="10dp"
+       android:layout_marginTop="30dp"
+       android:textAlignment="gravity"
+       android:backgroundTint="@color/blue"
+       android:textColor="@color/white"
+
+
+       android:layout_marginHorizontal="20dp"
+      />
+
+   <Button
+       android:layout_width="150dp"
+       android:layout_height="50dp"
+       android:text="cancel"
+       android:textSize="15dp"
+       android:textStyle="bold"
+       android:scrollbarSize="10dp"
+       android:layout_marginLeft="190dp"
+       android:layout_marginTop="-50dp"
+       android:backgroundTint="@color/blue"
+       android:textColor="@color/white"
+
+
+
+
+
+       />
+
+
+</LinearLayout>
