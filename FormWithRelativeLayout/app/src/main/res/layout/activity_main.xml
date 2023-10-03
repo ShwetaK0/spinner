@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColorHint="@color/black"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/form"
+        />
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        >
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Pass"
+            android:textColorHint="@color/black"
+            android:layout_margin="20dp"
+            />
+        <EditText
+            android:id="@+id/contact"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="contact"
+            android:textColorHint="@color/black"
+            android:layout_margin="20dp"
+            android:layout_toRightOf="@+id/pass"
+            />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/relative1"
+
+        />
+
+
+</RelativeLayout>

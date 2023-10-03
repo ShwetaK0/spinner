@@ -273,11 +273,8 @@
           android:layout_height="wrap_content"
           android:layout_marginLeft="270dp"
           android:layout_marginTop="-30dp"
-
           />
-
    </LinearLayout>
-
    <Button
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
@@ -287,14 +284,4 @@
        android:textSize="20dp"
        android:backgroundTint="@color/blue"
       />
-
-
-
-
-
-
-
-
-
-
 </LinearLayout>

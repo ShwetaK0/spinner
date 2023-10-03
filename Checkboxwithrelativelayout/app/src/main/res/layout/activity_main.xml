@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <RelativeLayout
+       android:id="@+id/deltaRelative1"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@color/blue"
+       >
+
+       <ImageView
+           android:id="@+id/imageview1"
+           android:layout_width="70dp"
+           android:layout_height="wrap_content"
+           android:src="@drawable/baseline_arrow_back_24"
+           android:layout_marginTop="10dp"
+           />
+
+       <TextView
+           android:id="@+id/checkbox"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Checkout"
+           android:textColor="@color/white"
+           android:textSize="20dp"
+           android:layout_marginTop="8dp"
+           android:layout_marginHorizontal="8dp"
+           android:layout_toRightOf="@+id/imageview1"
+           />
+
+       <ImageView
+           android:id="@+id/imageview2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/baseline_more_vert_24"
+           android:layout_marginTop="10dp"
+           android:layout_toRightOf="@+id/checkbox"
+           android:layout_marginHorizontal="160dp"
+           />
+   </RelativeLayout>
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Full name"
+        android:layout_below="@+id/deltaRelative1"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="15dp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/john"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="John Deo M."
+        android:textSize="18dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_below="@+id/fullname"
+        />
+
+    <TextView
+        android:id="@+id/card"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Card number"
+        android:layout_below="@+id/john"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="15dp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/cardnumber"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="4522*******"
+        android:textSize="18dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_below="@+id/card"
+        />
+
+    <TextView
+        android:id="@+id/security"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Security code"
+        android:layout_toRightOf="@id/card"
+        android:textSize="15dp"
+        android:layout_marginHorizontal="18dp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="160dp"
+        />
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="***"
+        android:textSize="18dp"
+        android:layout_toRightOf="@id/cardnumber"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="178dp"
+        />
+
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expiration date"
+        android:layout_below="@+id/card"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="15dp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="60dp"
+        />
+
+    <EditText
+        android:id="@+id/Expire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aug 15, 2023"
+        android:textSize="18dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_below="@+id/date"
+        />
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expiration date"
+        android:layout_below="@+id/Expire"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="15dp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aug 15, 2023"
+        android:textSize="18dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_below="@+id/Address"
+        />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:layout_below="@+id/Expire"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="15dp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:id="@+id/city2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Kolkata"
+        android:textSize="18dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_below="@+id/city"
+        />
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="State"
+        android:layout_below="@+id/Expire"
+        android:layout_toRightOf="@+id/city"
+        android:textSize="15dp"
+        android:layout_marginHorizontal="28dp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:id="@+id/state1"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="US"
+        android:textSize="18dp"
+        android:layout_below="@+id/state"
+        android:layout_marginHorizontal="25dp"
+        android:layout_toRightOf="@+id/city"
+        />
+
+    <TextView
+        android:id="@+id/Postalcode"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Postal code"
+        android:layout_below="@+id/state1"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="15dp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/code1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="7687656"
+        android:textSize="18dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_below="@+id/Postalcode"
+        />
+
+    <TextView
+        android:id="@+id/Country"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:layout_below="@+id/state"
+        android:layout_toRightOf="@+id/city"
+        android:textSize="15dp"
+        android:layout_marginHorizontal="28dp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="60dp"
+        />
+
+    <EditText
+        android:id="@+id/Country1"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="India"
+        android:textSize="18dp"
+        android:layout_marginTop="-7dp"
+        android:layout_below="@+id/Country"
+        android:layout_marginHorizontal="25dp"
+        android:layout_toRightOf="@+id/city"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROCESS"
+        android:layout_marginHorizontal="25dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/Postalcode"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
